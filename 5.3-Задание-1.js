@@ -10,7 +10,7 @@
 let someValue = +prompt('Введите число');
 if( typeof someValue === 'number' && !isNaN(someValue) ){
   if( someValue%2 ) {
-    console.log(`Вы ввели не четное число «${someValue}»`);
+    console.log(`Вы ввели нечетное число «${someValue}»`);
   } else {
      console.log(`Вы ввели четное число «${someValue}»`);
   } 
